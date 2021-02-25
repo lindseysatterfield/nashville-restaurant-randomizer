@@ -4,6 +4,7 @@ body {
   background-color: #3a3a3c;
   color: #d7dae5;
   font-family: 'Quicksand', sans-serif;
+  overflow: hidden;
 }
 
 .jumbotron {
