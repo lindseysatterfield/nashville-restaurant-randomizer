@@ -16,6 +16,10 @@ body {
   color: #2d93ad;
   font-style: italic;
   font-size: 48px;
+  height: 110px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 #nashville-container {
