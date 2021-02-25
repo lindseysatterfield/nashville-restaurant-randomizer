@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+body {
+  background-color: #3a3a3c;
+  color: #d7dae5;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.jumbotron {
+  text-align: center;
+  margin: 0.5em 1em;
+}
+
+#restaurant-container {
+  text-align: center;
+  color: #2d93ad;
+  font-style: italic;
+  font-size: 48px;
+}
+
+#nashville-container {
+  margin: 0 auto;
+  width: 55%;
+}
+
+#btn {
+  background-color: #d7dae5;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+@media (max-width: 768px) {
+  #nashville-container {
+    width: 100%;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1400px) {
+  #nashville-container {
+    width: 80%;
+  }
+}
